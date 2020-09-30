@@ -8,5 +8,10 @@ public class Main {
             System.out.print("Enter your name: ");
             name = keyboard.nextLine();
             System.out.println("Welcome " + name + "!... I see that you are working from Tree Top!");
+
+            for(int i = 0; i<10 ;i++)
+            {
+                System.out.println(i);
+            }
     }
 }
